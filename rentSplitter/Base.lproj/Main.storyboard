@@ -61,7 +61,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="158.5" height="43"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -73,7 +73,7 @@
                                                 <rect key="frame" x="0.0" y="69" width="158.5" height="43"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -85,7 +85,7 @@
                                                 <rect key="frame" x="0.0" y="138" width="158.5" height="43"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -97,7 +97,7 @@
                                                 <rect key="frame" x="0.0" y="207" width="158.5" height="43"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -172,20 +172,20 @@
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of the room" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mEb-W2-OHz" customClass="rentTextField" customModule="rentSplitter" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="54" width="311" height="38"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Room Area" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zn-W0-NeV">
                                         <rect key="frame" x="0.0" y="108" width="311" height="38"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="People in this room" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tcp-AD-Nps">
                                         <rect key="frame" x="0.0" y="162" width="311" height="38"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                 </subviews>
@@ -229,7 +229,293 @@
             </objects>
             <point key="canvasLocation" x="2031" y="139"/>
         </scene>
-        <!--Rent DetailsVC-->
+        <!--ApartmentsVC-->
+        <scene sceneID="wTp-2I-1LR">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="G4T-7g-G50" customClass="UTCApartmentsVC" customModule="rentSplitter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f5f-rD-uPv"/>
+                        <viewControllerLayoutGuide type="bottom" id="DjZ-Ss-f1K"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YW6-6s-JV0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oru-c6-phI">
+                                <rect key="frame" x="0.0" y="206" width="375" height="461"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="d1E-E9-qKA">
+                                    <size key="itemSize" width="375" height="463"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="apartmentCell" id="9u6-li-jfP" customClass="ApartmentCell" customModule="rentSplitter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="-1" width="375" height="463"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="463"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Columbia_1" translatesAutoresizingMaskIntoConstraints="NO" id="5q3-Fj-Pct">
+                                                    <rect key="frame" x="8" y="16" width="359" height="318"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Columbia-Plan-1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecT-Lb-bVJ">
+                                                    <rect key="frame" x="16" y="366" width="343" height="20.5"/>
+                                                    <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="v5Q-bs-8fN"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="652 Sq Ft." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jX-Q7-2dj">
+                                                    <rect key="frame" x="16" y="402.5" width="343" height="20.5"/>
+                                                    <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="EOt-Wd-yUG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="3jX-Q7-2dj" firstAttribute="leading" secondItem="9u6-li-jfP" secondAttribute="leadingMargin" constant="8" id="1Z7-SN-yPX"/>
+                                            <constraint firstItem="5q3-Fj-Pct" firstAttribute="leading" secondItem="9u6-li-jfP" secondAttribute="leading" constant="8" id="Iyq-Ma-qgi"/>
+                                            <constraint firstItem="ecT-Lb-bVJ" firstAttribute="leading" secondItem="9u6-li-jfP" secondAttribute="leadingMargin" constant="8" id="Jh9-vZ-Tgn"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="3jX-Q7-2dj" secondAttribute="trailing" constant="8" id="LqY-KU-wKk"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="ecT-Lb-bVJ" secondAttribute="trailing" constant="8" id="RVc-AJ-pjF"/>
+                                            <constraint firstAttribute="trailing" secondItem="5q3-Fj-Pct" secondAttribute="trailing" constant="8" id="WRb-vL-XIe"/>
+                                            <constraint firstItem="5q3-Fj-Pct" firstAttribute="top" secondItem="9u6-li-jfP" secondAttribute="topMargin" constant="8" id="d4M-UK-5af"/>
+                                            <constraint firstItem="ecT-Lb-bVJ" firstAttribute="top" secondItem="5q3-Fj-Pct" secondAttribute="bottom" constant="32" id="gKi-12-zCS"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="3jX-Q7-2dj" secondAttribute="bottom" constant="32" id="kjD-zq-wEe"/>
+                                            <constraint firstItem="3jX-Q7-2dj" firstAttribute="top" secondItem="ecT-Lb-bVJ" secondAttribute="bottom" constant="16" id="zeB-ad-drI"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="area" destination="3jX-Q7-2dj" id="1IH-hx-kjT"/>
+                                            <outlet property="image" destination="5q3-Fj-Pct" id="Klu-cP-uzN"/>
+                                            <outlet property="planAndRooms" destination="ecT-Lb-bVJ" id="Wcz-pW-cE7"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="G4T-7g-G50" id="JBN-lX-z94"/>
+                                    <outlet property="delegate" destination="G4T-7g-G50" id="sTT-Og-Z4g"/>
+                                </connections>
+                            </collectionView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADA-jp-hBQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="125"/>
+                                <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="vnj-Yy-QE9"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="G4T-7g-G50" id="8h6-ZX-Sza"/>
+                                    <outlet property="delegate" destination="G4T-7g-G50" id="TDR-qg-zB2"/>
+                                </connections>
+                            </pickerView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upp-pO-2gv">
+                                <rect key="frame" x="24" y="197" width="327" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="PDX-04-aYC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ADA-jp-hBQ" firstAttribute="leading" secondItem="YW6-6s-JV0" secondAttribute="leading" id="2Er-kZ-NYe"/>
+                            <constraint firstItem="Upp-pO-2gv" firstAttribute="top" secondItem="ADA-jp-hBQ" secondAttribute="bottom" constant="8" id="LH8-ZX-jb3"/>
+                            <constraint firstAttribute="trailing" secondItem="ADA-jp-hBQ" secondAttribute="trailing" id="REp-ZA-iY1"/>
+                            <constraint firstItem="oru-c6-phI" firstAttribute="leading" secondItem="YW6-6s-JV0" secondAttribute="leading" id="RMH-YB-Zpx"/>
+                            <constraint firstItem="Upp-pO-2gv" firstAttribute="leading" secondItem="YW6-6s-JV0" secondAttribute="leadingMargin" constant="8" id="cAb-uC-vca"/>
+                            <constraint firstAttribute="trailing" secondItem="oru-c6-phI" secondAttribute="trailing" id="dFo-rc-Lsb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Upp-pO-2gv" secondAttribute="trailing" constant="8" id="eZM-du-Sfm"/>
+                            <constraint firstItem="oru-c6-phI" firstAttribute="top" secondItem="Upp-pO-2gv" secondAttribute="bottom" constant="8" id="egs-JG-HKM"/>
+                            <constraint firstItem="DjZ-Ss-f1K" firstAttribute="top" secondItem="oru-c6-phI" secondAttribute="bottom" id="hmf-P4-9uf"/>
+                            <constraint firstItem="ADA-jp-hBQ" firstAttribute="top" secondItem="f5f-rD-uPv" secondAttribute="bottom" id="ytR-NO-BFZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="apartmentPicker" destination="ADA-jp-hBQ" id="nwt-lB-pIP"/>
+                        <outlet property="collectionView" destination="oru-c6-phI" id="C5E-CD-rIi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aDh-F8-9so" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="-597.75112443778119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Bt-Ao-hbC">
+            <objects>
+                <viewController id="Dzm-k9-ehh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wS0-dV-pqE"/>
+                        <viewControllerLayoutGuide type="bottom" id="xrc-gb-nEV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OO3-nU-pwp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DXZ-Ox-YgJ">
+                                <rect key="frame" x="8" y="72" width="359" height="587"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N80-8G-QRl">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="289.5"/>
+                                        <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="UTC Apartments">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="material" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="G4T-7g-G50" kind="show" id="oAM-X3-y8d"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4O-MA-hax">
+                                        <rect key="frame" x="0.0" y="297.5" width="359" height="289.5"/>
+                                        <color key="backgroundColor" red="0.48436495660000001" green="0.50524264569999999" blue="0.96867954730000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Calculate It Manually">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="material" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="y5L-mc-xd1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48436495661735535" green="0.50524264574050903" blue="0.96867954730987549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="DXZ-Ox-YgJ" firstAttribute="top" secondItem="wS0-dV-pqE" secondAttribute="bottom" constant="8" id="CTw-Bv-fek"/>
+                            <constraint firstItem="xrc-gb-nEV" firstAttribute="top" secondItem="DXZ-Ox-YgJ" secondAttribute="bottom" constant="8" id="K58-EL-fxP"/>
+                            <constraint firstItem="DXZ-Ox-YgJ" firstAttribute="leading" secondItem="OO3-nU-pwp" secondAttribute="leading" constant="8" id="X70-6g-9f0"/>
+                            <constraint firstAttribute="trailing" secondItem="DXZ-Ox-YgJ" secondAttribute="trailing" constant="8" id="h9C-9R-ZEr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="qfg-NO-s2y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G5w-ZJ-R6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xWu-M5-BB3">
+            <objects>
+                <viewController id="8oi-Ti-LX3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fC8-hN-1Nr"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Z0-Ha-v7I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O2f-af-VUG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="8db-iP-4Ag">
+                                <rect key="frame" x="8" y="28" width="359" height="631"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaY-LD-XFI">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="307.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mss-J5-r5l">
+                                                <rect key="frame" x="305" y="8" width="46" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="4ca-58-seX"/>
+                                                    <constraint firstAttribute="width" constant="46" id="jA9-VG-Kvb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Done">
+                                                    <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Mss-J5-r5l" secondAttribute="trailing" constant="8" id="6h9-QO-aut"/>
+                                            <constraint firstItem="Mss-J5-r5l" firstAttribute="top" secondItem="qaY-LD-XFI" secondAttribute="top" constant="8" id="iWP-cV-q5K"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IUh-7M-ynG">
+                                        <rect key="frame" x="0.0" y="323.5" width="359" height="307.5"/>
+                                        <subviews>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gOt-RL-PwR">
+                                                <rect key="frame" x="8" y="8" width="343" height="291.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aOE-a6-wfU">
+                                                    <size key="itemSize" width="310" height="72"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="pwB-yg-VWa">
+                                                        <rect key="frame" x="16.5" y="0.0" width="310" height="72"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                            <rect key="frame" x="0.0" y="0.0" width="310" height="72"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="gOt-RL-PwR" firstAttribute="top" secondItem="IUh-7M-ynG" secondAttribute="top" constant="8" id="065-MT-K0j"/>
+                                            <constraint firstAttribute="trailing" secondItem="gOt-RL-PwR" secondAttribute="trailing" constant="8" id="4s2-9J-vEE"/>
+                                            <constraint firstItem="gOt-RL-PwR" firstAttribute="leading" secondItem="IUh-7M-ynG" secondAttribute="leading" constant="8" id="NmD-P1-GOu"/>
+                                            <constraint firstAttribute="bottom" secondItem="gOt-RL-PwR" secondAttribute="bottom" constant="8" id="vhK-ec-xc4"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8db-iP-4Ag" secondAttribute="trailing" constant="8" id="GLE-9P-axp"/>
+                            <constraint firstItem="8db-iP-4Ag" firstAttribute="leading" secondItem="O2f-af-VUG" secondAttribute="leading" constant="8" id="UOe-lF-9gI"/>
+                            <constraint firstItem="5Z0-Ha-v7I" firstAttribute="top" secondItem="8db-iP-4Ag" secondAttribute="bottom" constant="8" id="ezN-Ie-mEr"/>
+                            <constraint firstItem="8db-iP-4Ag" firstAttribute="top" secondItem="fC8-hN-1Nr" secondAttribute="bottom" constant="8" id="yIR-dI-EYj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUi-Qd-bMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="884.70764617691157"/>
+        </scene>
+        <!--The Split-->
         <scene sceneID="i3H-J9-sDJ">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="oyT-cf-hRu" customClass="RentDetailsVC" customModule="rentSplitter" customModuleProvider="target" sceneMemberID="viewController">
@@ -322,13 +608,24 @@
                             <constraint firstItem="wG8-2A-pt3" firstAttribute="top" secondItem="GjD-BC-ZhZ" secondAttribute="bottom" id="kC5-xL-5L6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="The Split" id="MNm-rb-a0W">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="Lgy-zF-yDd">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="8oi-Ti-LX3" kind="presentation" id="3HE-32-n1d"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="PiR-0u-mla">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="wG8-2A-pt3" id="26q-pR-zb5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGL-sp-JM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3141.5999999999999" y="138.98050974512745"/>
+            <point key="canvasLocation" x="2030" y="886"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NyP-Cz-Qix">
@@ -349,12 +646,15 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="K92-TD-d2l"/>
+                        <segue destination="Dzm-k9-ehh" kind="relationship" relationship="rootViewController" id="GuY-tD-kCl"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vCp-yW-1JE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-751" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Columbia_1" width="242" height="400"/>
+    </resources>
 </document>

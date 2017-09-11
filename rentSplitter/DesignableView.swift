@@ -8,12 +8,12 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 class DesignableButton: UIButton{
     
 }
 
-@IBDesignable
+//@IBDesignable
 class rentTextField: UITextField{
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(x: bounds.minX + 10 , y: bounds.minY, width: bounds.width-10, height: bounds.height)
@@ -52,8 +52,8 @@ extension UIView{
             if newValue == true{
                 materialKey = true
                 
-                layer.shadowColor = UIColor.green.cgColor
-                layer.shadowOffset = CGSize(width: 0, height: 1)
+                layer.shadowColor = UIColor.white.cgColor
+                layer.shadowOffset = CGSize(width: 0, height: 0)
                 layer.shadowRadius = 1.0
                 layer.shadowOpacity = 1.0
                 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		510EAD751F3999F0009BB760 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510EAD741F3999F0009BB760 /* DesignableView.swift */; };
 		510EAD771F39AD44009BB760 /* RentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510EAD761F39AD44009BB760 /* RentDetailsVC.swift */; };
+		517DE4F21F667EAB00D32B58 /* UTCApartmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517DE4F11F667EAB00D32B58 /* UTCApartmentsVC.swift */; };
 		51EDB9291EC61FF00030095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDB9281EC61FF00030095F /* AppDelegate.swift */; };
 		51EDB92B1EC61FF00030095F /* RentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EDB92A1EC61FF00030095F /* RentVC.swift */; };
 		51EDB92E1EC61FF00030095F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EDB92C1EC61FF00030095F /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		510EAD741F3999F0009BB760 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		510EAD761F39AD44009BB760 /* RentDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentDetailsVC.swift; sourceTree = "<group>"; };
+		517DE4F11F667EAB00D32B58 /* UTCApartmentsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTCApartmentsVC.swift; sourceTree = "<group>"; };
 		51EDB9251EC61FF00030095F /* rentSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rentSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EDB9281EC61FF00030095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51EDB92A1EC61FF00030095F /* RentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentVC.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				51EDB93A1EC620360030095F /* RentData.swift */,
 				510EAD761F39AD44009BB760 /* RentDetailsVC.swift */,
 				510EAD741F3999F0009BB760 /* DesignableView.swift */,
+				517DE4F11F667EAB00D32B58 /* UTCApartmentsVC.swift */,
 				51EDB92F1EC61FF10030095F /* Assets.xcassets */,
 				51EDB92C1EC61FF00030095F /* Main.storyboard */,
 				51EDB9311EC61FF10030095F /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517DE4F21F667EAB00D32B58 /* UTCApartmentsVC.swift in Sources */,
 				51EDB92B1EC61FF00030095F /* RentVC.swift in Sources */,
 				51EDB93B1EC620360030095F /* RentData.swift in Sources */,
 				510EAD771F39AD44009BB760 /* RentDetailsVC.swift in Sources */,
